@@ -9,12 +9,12 @@ function calculateBill() {
 
     var errorMessage = document.getElementById('error-message');
 
-    // Check if recharge amount is provided
+    
     if (isNaN(recharge) || recharge <= 0) {
         errorMessage.innerText = "Please enter a valid recharge amount.";
-        return; // Exit the function
+        return; 
     } else {
-        errorMessage.innerText = ""; // Clear error message if recharge amount is valid
+        errorMessage.innerText = ""; 
     }
 
     var totalConsumedUnits = (current1 - prev1) + (current2 - prev2) + (current3 - prev3);
