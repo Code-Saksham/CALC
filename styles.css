@@ -6,17 +6,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: none; /* Removed background color */
+    background: none;
 }
 
 .container {
-    max-width: 520px;
+    max-width: 480px; /* Reduced container width for a more compact form */
     width: 100%;
     margin: 12px auto;
-    background: none; /* Removed container background */
+    background: none;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: none; /* Removed shadow for minimal look */
+    box-shadow: none;
 }
 
 h1 {
@@ -52,11 +52,11 @@ label {
 }
 
 input {
-    width: 100%;
-    padding: 6px; /* Reduced padding for smaller input boxes */
+    width: 80px; /* Reduced width for smaller input boxes */
+    padding: 6px;
     border-radius: 5px;
     border: 1px solid #d1d5db;
-    font-size: 13px; /* Smaller font size */
+    font-size: 13px;
     line-height: 1.4;
     transition: border-color 0.2s ease;
 }
@@ -70,7 +70,7 @@ button {
     background-color: #2563eb;
     color: #ffffff;
     border: none;
-    padding: 8px 16px; /* Slightly smaller button */
+    padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 13px;
